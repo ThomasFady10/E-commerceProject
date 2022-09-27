@@ -10,6 +10,7 @@ public class addTo_cardDom {
     {
         Hooks._driver=driver;
     }
+    
     public static WebElement buttonsAdd(String i)
     {
         return   Hooks._driver.findElement(By.xpath("(//button[@class=\"button-2 product-box-add-to-cart-button\"])["+i+"]"));
